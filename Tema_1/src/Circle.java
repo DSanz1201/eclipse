@@ -58,4 +58,6 @@ public class Circle/*Entidad*/ {
 		// TODO Auto-generated method stub
 		return "Radio: " + radius + "   Color: " + color;
 	}
+	
+	
 }
