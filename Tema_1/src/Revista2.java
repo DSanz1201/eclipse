@@ -10,6 +10,10 @@ public class Revista2 {
 	
 	//3 constructores
 	
+	/*
+	 * constructor sin parametros
+	 */
+	
 	public Revista2 (){
 		paginas = 10;
 		titulo = "Revista 1";
@@ -20,10 +24,20 @@ public class Revista2 {
 		
 	}
 	
+	/**
+	 * Parametros seteados manuealmente
+	 * @param paginas - n de pags
+	 * @param titulo
+	 * @param autor
+	 * @param editorial
+	 * @param ejemplaresAnyo - n de ejemplares
+	 * @param genero
+	 */
+	
 	public Revista2 (int paginas, String titulo, Autor autor, String editorial, int ejemplaresAnyo, String genero){
 		this.paginas = paginas;
 		this.titulo = titulo;
-		this.autor = autor;
+		this.autor = new Autor(autor);
 		this.editorial = editorial;
 		this.ejemplaresAnyo = ejemplaresAnyo;
 		this.genero = genero;
@@ -44,6 +58,13 @@ public class Revista2 {
 		
 	}
 	
+	/**
+	 * Parametros parciales seteados manualmente
+	 * @param titulo
+	 * @param autor
+	 * @param editorial
+	 */
+	
 	public Revista2 (String titulo, Autor autor, String editorial){
 		this.titulo = titulo;
 		this.editorial = editorial;
@@ -51,9 +72,14 @@ public class Revista2 {
 		this.genero = "Genero 3";
 		this.paginas = 10;
 		
-		this.autor = autor;
+		this.autor = new Autor(autor);
 		
 	}
+	
+	/**
+	 * Constructor copia
+	 * @param r - parametro necesario
+	 */
 	
 	public Revista2 (Revista2 r) {
 		this.titulo = r.titulo;
@@ -92,7 +118,7 @@ public class Revista2 {
 	}
 
 	public void setAutor(Autor autor) {
-		this.autor = autor;
+		this.autor = new Autor(autor);
 	}
 
 	public String getEditorial() {

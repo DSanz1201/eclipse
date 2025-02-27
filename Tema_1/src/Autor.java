@@ -25,6 +25,16 @@ public class Autor {
 		this.bio = bio;
 	}
 
+	public Autor(Autor autor) {
+		this.nombre = r.nombre;
+		this.apellidos = r.apellidos;
+		this.anyoNcto = r.anyoNcto;
+		this.lugarNcto = r.lugarNcto;
+		this.bio = r.bio;
+		
+	}
+	
+	
 	public String getNombre() {
 		return nombre;
 	}

@@ -3,10 +3,10 @@ public class prueba_libro {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		libro L1 = new libro();
-		libro L2 = new libro("Titulo Marciano");
-		libro L3 = new libro("Breaking Bad", "JK Vincent");
-		libro L4 = new libro("El secreto de los Barrow", "Autor x");
+		Libro L1 = new Libro();
+		Libro L2 = new Libro("Titulo Marciano");
+		Libro L3 = new Libro("Breaking Bad", "JK Vincent");
+		Libro L4 = new Libro("El secreto de los Barrow", "Autor x");
 		
 		L1.setTitulo("cambio");
 		System.out.println(L2);

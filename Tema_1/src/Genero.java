@@ -1,0 +1,4 @@
+
+public enum Genero {
+	CIENCIA, TECNOLOGIA, NATURALEZA, ARTE, MUSICA, COCINA
+}
