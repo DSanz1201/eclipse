@@ -17,7 +17,7 @@ public class Artista {
 		this.nombre = a.nombre;
 		this.anyoInicio = a.anyoInicio;
 		this.estilo = a.estilo;
-		this.ultimoAlbum = a.ultimoAlbum;
+		this.ultimoAlbum = new Album(a.ultimoAlbum); //Importante hacer una copia profunda para el constructor de copia
 	}
 	
 	public Artista(String nombre, int anyoInicio, Estilo estilo, Album ultimoAlbum) {

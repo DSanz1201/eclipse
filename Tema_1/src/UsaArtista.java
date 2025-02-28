@@ -58,13 +58,6 @@ public class UsaArtista {
 		System.out.println(a2); //Ver cambios
 		System.out.println(a4); //Ver cambios
 		
-		//Versión 2
-		
-		//Crear un ArrayList de artistas
-		//Cargarlo con 3 artistas
-		//Repetir las acciones anteriores con los objetos almacenados en el ArrayList
-		//Definir una función que devuelve el artista más veterano (static, en la clase con el main)
-		//Definir una función que devuelve el artista cuyo álbum tenga menor número de canciones (static, en la clase con el main)
 	}
 
 }
