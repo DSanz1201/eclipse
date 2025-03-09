@@ -25,7 +25,7 @@ public class Autor {
 		this.bio = bio;
 	}
 
-	public Autor(Autor autor) {
+	public Autor(Autor r) {
 		this.nombre = r.nombre;
 		this.apellidos = r.apellidos;
 		this.anyoNcto = r.anyoNcto;
