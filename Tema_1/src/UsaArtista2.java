@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class UsaArtista2 {
-
+	
 	public static void main(String[] args) {
 		//Versión 2
 		
@@ -12,9 +12,10 @@ public class UsaArtista2 {
 		
 		//Cargarlo con 3 artistas
 		
-		for(int i = 1; i <= 3; i++) {
-			array.add(new Artista());
-		}
+		array.add(new Artista());
+		array.add(new Artista("Musico1", 1999, Estilo.POP, new Album()));
+		array.add(new Artista(array.get(1)));
+		
 		
 		System.out.println(array);	
 		
@@ -68,13 +69,29 @@ public class UsaArtista2 {
 				System.out.println("#############################################");
 				System.out.println(array.get(1)); //Ver cambios
 				System.out.println(array.get(3)); //Ver cambios
-		
+				
+				System.out.println(veterano(array));
+				
+						
+				
+	}
 		//Definir una función que devuelve el artista más veterano (static, en la clase con el main)
 				
-				
+		public static int veterano(ArrayList<Artista> array) {
+			int masVeterano = 2025;
+			int masVeteranoIndice = 0;
+			for(int i = 0; i < array.size(); i++) {
+				if(array.get(1).getAnyoInicio() < masVeterano) {
+					masVeterano = array.get(1).getAnyoInicio();
+					masVeteranoIndice = i;
+				}
+			}
+			return masVeteranoIndice;
+		}
+
 		
 		//Definir una función que devuelve el artista cuyo álbum tenga menor número de canciones (static, en la clase con el main)
 
-	}
+	
 
 }
