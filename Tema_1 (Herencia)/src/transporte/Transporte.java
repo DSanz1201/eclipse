@@ -23,6 +23,7 @@ public abstract class Transporte { //De una clase abstracta no se puede crear un
         this.anoCompra = anoCompra;
         this.cv = cv;
         this.modelo = modelo;
+        
     }
     /**
      * Constructor de la clase Transporte. Inicializa los atributos con valores por defecto
@@ -37,6 +38,7 @@ public abstract class Transporte { //De una clase abstracta no se puede crear un
         this.cv = 200;
         this.modelo = "";
     }
+    
     /**
      * Constructor copia de la clase Transporte.
      * @param matricula Número de matrícula del vehículo.
@@ -72,7 +74,6 @@ public abstract class Transporte { //De una clase abstracta no se puede crear un
 		return matricula;
 	}
 	
-	
 	@Override
 	public String toString() {
 		return "Transporte [matricula=" + matricula + ", anoCompra=" + anoCompra + ", cv=" + cv + ", modelo=" + modelo
@@ -95,6 +96,6 @@ public abstract class Transporte { //De una clase abstracta no se puede crear un
 	 * Genera valores aleatorios para algunos de los atributos de la clase
 	 */
 	
-	public abstract void generarAleatorios(); //Forzar que las subclases tengan este metodo
+	public abstract Transporte generarAleatorios(); //Forzar que las subclases tengan este metodo
     
 }

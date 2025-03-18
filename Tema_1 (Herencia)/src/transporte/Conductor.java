@@ -68,6 +68,14 @@ public class Conductor {
 		return anyoPermiso;
 	}
 
+	public String getCodigo() {
+		return codigo;
+	}
+
+	public void setCodigo(String codigo) {
+		this.codigo = codigo;
+	}
+
 	@Override
 	public String toString() {
 		return "Conductor [nombre=" + nombre + ", anyoPermiso=" + anyoPermiso + ", permisoTaxi=" + permisoTaxi

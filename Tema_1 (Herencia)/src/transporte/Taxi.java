@@ -53,9 +53,10 @@ public class Taxi extends Transporte {
 		return super.toString() + "\nTaxi [numeroLicencia=" + numeroLicencia + "]";
 	}   
 	
-	public void generarAleatorios() {
+	public Transporte generarAleatorios() {
 		Random random = new Random();
 		numeroLicencia = random.nextInt(10000);
+		return this;
 	}
 	
 }

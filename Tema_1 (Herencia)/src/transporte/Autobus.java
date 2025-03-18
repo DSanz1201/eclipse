@@ -57,8 +57,9 @@ public class Autobus extends Transporte {
 		return super.toString() + "\nAutobus [numeroPlazas=" + numeroPlazas + "]";
 	}
 	
-	public void generarAleatorios() {
+	public Transporte generarAleatorios() {
 		Random random = new Random();
 		numeroPlazas = random.nextInt(20) + 10;
+		return this;
 	}
 }
