@@ -3,14 +3,16 @@ package AirBnb;
 import java.util.Objects;
 
 public class Usuario {
+	private static int contador = 0;
 	protected double codigo;
 	protected String nombre;
 	protected String apellido;
-	protected double saldo;
+	protected int saldo;
 	
-	public Usuario(double codigo, String nombre, String apellido, double saldo) {
+	public Usuario(String nombre, String apellido, int saldo) {
 		super();
-		this.codigo = codigo;
+		this.codigo = contador;
+		contador++;
 		this.nombre = nombre;
 		this.apellido = apellido;
 		this.saldo = saldo;
@@ -18,18 +20,11 @@ public class Usuario {
 	
 	public Usuario() {
 		super();
-		this.codigo = 237469123;
+		this.codigo = contador;
+		contador++;
 		this.nombre = "Nombre1";
 		this.apellido = "Apellido1";
 		this.saldo = 1550670;
-	}
-
-	public double getCodigo() {
-		return codigo;
-	}
-
-	public void setCodigo(double codigo) {
-		this.codigo = codigo;
 	}
 
 	public String getNombre() {
@@ -48,17 +43,17 @@ public class Usuario {
 		this.apellido = apellido;
 	}
 
-	public double getSaldo() {
+	public int getSaldo() {
 		return saldo;
 	}
 
-	public void setSaldo(double saldo) {
+	public void setSaldo(int saldo) {
 		this.saldo = saldo;
 	}
 
 	@Override
 	public String toString() {
-		return "Usuario [codigo=" + codigo + ", nombre=" + nombre + ", apellido=" + apellido + ", saldo=" + saldo + "]";
+		return "Usuario [nombre=" + nombre + ", apellido=" + apellido + ", saldo=" + saldo + "]";
 	}
 
 	@Override
@@ -71,7 +66,6 @@ public class Usuario {
 			return false;
 		Usuario other = (Usuario) obj;
 		return Objects.equals(apellido, other.apellido)
-				&& Double.doubleToLongBits(codigo) == Double.doubleToLongBits(other.codigo)
 				&& Objects.equals(nombre, other.nombre)
 				&& Double.doubleToLongBits(saldo) == Double.doubleToLongBits(other.saldo);
 	}
