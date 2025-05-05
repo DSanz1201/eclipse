@@ -1,0 +1,13 @@
+I;23.4;Sí;EUROPA;Incendio de La Palma;12,3,2023;3;
+Ts;3.6;6.8;Tsunami Japón;20,4,2014;3;
+Ts;3.4;6.4;Tsunami Japón;23,4,2014;3;
+I;23.4;Sí;EUROPA;Incendio del bosque encantado;12,3,2023;3;
+T;2.4;ASIA;Terremoto de Mérida;15,2,2003;3;
+
+EJERCICIO 1
+Metodo en DeustoBio para calcular el pais que mas fenomenos 
+ha tenido por continente utilizando el mapa ya generado
+
+EJERCICIO 2
+Metodo en DeustoBio para calcular el continente donde menos 7
+hectareas se han quemado utilizando el mapa ya generado

@@ -1,0 +1,50 @@
+False,Ensalada;Hamburguesa
+True,Hamburguesa;Cerveza;Pizza;Nuggets;Nachos
+True,Refresco;Zumo Natural;Cerveza
+False,Cerveza
+False,Patatas Fritas;Nuggets;Hot Dog;Refresco;Zumo Natural
+True,Refresco;Hot Dog;Nachos;Pizza
+False,Hot Dog
+False,Nachos;Hamburguesa;Refresco;Ensalada;Pizza
+True,Pizza;Zumo Natural;Hot Dog
+True,Hamburguesa;Nachos;Patatas Fritas
+True,Nuggets;Zumo Natural;Hot Dog;Cerveza;Patatas Fritas
+False,Nachos;Patatas Fritas;Refresco
+True,Ensalada;Cerveza
+False,Hamburguesa;Zumo Natural;Patatas Fritas
+False,Pizza
+True,Nuggets
+True,Hamburguesa
+False,Ensalada;Hamburguesa;Nachos;Zumo Natural;Hot Dog
+False,Nuggets;Zumo Natural;Ensalada;Patatas Fritas;Hot Dog
+True,Refresco
+True,Nuggets;Pizza;Hot Dog;Refresco;Nachos
+False,Zumo Natural
+False,Zumo Natural;Cerveza;Nuggets;Pizza
+False,Refresco;Pizza;Nachos
+True,Ensalada
+False,Nuggets;Nachos;Ensalada
+True,Pizza;Zumo Natural;Refresco;Nuggets
+True,Hot Dog;Nachos;Pizza
+False,Pizza;Cerveza
+False,Ensalada;Zumo Natural;Hot Dog;Nachos;Refresco
+False,Hot Dog;Nachos;Ensalada;Cerveza;Pizza
+False,Refresco;Hot Dog;Cerveza
+False,Ensalada;Nachos;Cerveza;Nuggets;Zumo Natural
+False,Patatas Fritas;Hot Dog;Zumo Natural
+False,Nachos
+True,Zumo Natural;Hamburguesa
+True,Zumo Natural;Cerveza;Pizza;Patatas Fritas
+False,Hamburguesa;Nuggets;Ensalada;Hot Dog;Pizza
+False,Nuggets;Hot Dog
+False,Ensalada;Refresco;Cerveza;Nachos;Nuggets
+True,Nachos
+True,Nachos
+True,Zumo Natural;Cerveza
+False,Zumo Natural;Cerveza;Nachos;Pizza;Hot Dog
+False,Refresco;Cerveza;Hot Dog;Ensalada
+False,Nuggets
+False,Zumo Natural;Refresco
+True,Hamburguesa;Patatas Fritas;Nachos
+True,Pizza
+True,Hamburguesa;Hot Dog;Nachos;Pizza
